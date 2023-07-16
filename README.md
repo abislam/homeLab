@@ -28,7 +28,7 @@ This repository is a demo of running an Active Directory Home Lab using Virtualb
    ![](images/dedicated_Domain_Admin_Account.jpg)
 4) Setup NAT and Routing so clients can get internet through the Domain Controller(DC).
    ![](images/routing_RemoteAccess_NAT.jpg)
-5) Run a powershell script to create a bunch of generic users or use your own method. All of them are assigned the same password for this demo.
+5) Run a [powershell script](scripts/1_CREATE_USERS.ps1) to create a bunch of generic users or use your own method. All of them are assigned the same password for this demo.
    ![](images/powershellUsers.jpg)
    Here are all the server roles in after setup is complete:
    ![](images/serverRoles.jpg)
